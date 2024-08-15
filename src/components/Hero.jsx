@@ -17,7 +17,7 @@ const Hero = () => {
     <div className="border-b border-neutral-900 pb-4 lg:mb-35 ">
       <div className="flex flex-wrap ">
         <div className="w-full lg:w-1/2">
-          <div className="flex flex-col items-center lg:items-start pt-12 gap-4 ">
+          <div className="flex flex-col items-center lg:items-start pt-12 gap-2 ">
             <motion.h1 
             variants={container(0)}
             initial="hidden"
