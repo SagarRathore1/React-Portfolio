@@ -37,14 +37,14 @@ export const PROJECTS = [
     image: portfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS","JavaScript", "ReactJS", "Framer motion "],
+    technologies: [ "TaiwindCSS","JavaScript", "ReactJS", "Framer motion"],
   },
   {
     title: "Weather App",
     image: weather,
     description:
       "A Weather App provides real-time weather updates, including temperature, humidity, and forecasts. Users can quickly check current conditions and future predictions for their location, making it easy to plan their day accordingly.",
-    technologies: ["HTML", "CSS","JavaScript", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS","JavaScript", "React"],
   },
 
 ];
