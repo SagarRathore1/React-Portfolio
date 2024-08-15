@@ -35,14 +35,14 @@ const Hero = () => {
             <motion.p  variants={container(1)}
             initial="hidden"
             animate="visible"
-            className="lg:pl-16 sm:pr-16  xl:pr-2  md:pl-32 sm:pl-32 sm:p-9 xl:text:center  y-2 max-w-xl py-6 font-light tracking-tighter ">
+            className="lg:pl-16 sm:pr-16  xl:pr-2  md:pl-16 sm:pl-16 sm:p-9 xl:text:center  y-2 max-w-xl py-6 font-light tracking-tighter ">
               {HERO_CONTENT}
             </motion.p>
            
             </div>
           </div>
           <div className="w-full lg:w-1/2 lh:p-8">
-              <div className="flex justify-center ">
+              <div className="flex justify-center sm:pr-16 sm:pl-16 ">
                 <motion.img
                 initial={{x:100,opacity:0}}
                 animate={{x:0,opacity:1}}
