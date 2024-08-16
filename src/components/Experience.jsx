@@ -1,6 +1,6 @@
 import { EXPERIENCES } from '../constants/content'
 import {motion} from "framer-motion";
-
+import certificate from "../assets/projects/CertificateGSSOC.png"
 const Experience = () => {
   return <div className='border-b border-neutral-900 pb-4 md:pl-24 sm:pl-24'>
     <motion.h1
@@ -16,9 +16,20 @@ const Experience = () => {
           initial={{opacity:0,x:-100}}
           transition={{duration:1}}
           className='w-full lg:w-1/4'>
+          
           <p className='mb-text-sm text-neutral-400'>
             {experience.year}
             </p>
+            <div className="flex items-center justify-center pr-32 pt-12 pb-12 ">
+                <motion.img
+                initial={{x:100,opacity:0}}
+                animate={{x:0,opacity:1}}
+                transition={{duration:1,delay:1}}
+
+                 className="size-1/2 rounded-xl h-36 w-60  "  src={certificate} alt="Sagar Rathore" />
+              </div>
+            
+          
             </motion.div>
             <motion.div 
              whileInView={{opacity:1,x:0}}

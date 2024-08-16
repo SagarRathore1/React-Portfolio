@@ -6,6 +6,7 @@ import weather from "../assets/projects/weather.png";
 import expenseTracker from "../assets/projects/expense-tracker.png"
 import portfolio from "../assets/projects/portfolio.png";
 
+
 export const HERO_CONTENT = `I am a passionate front-end developer with 3 months of experience, specializing in responsive and user-centric web applications. Skilled in HTML, CSS, JavaScript, React.js, and Tailwind CSS, I have contributed to open source projects through the GirlScript Summer of Code, focusing on creating high-quality, visually appealing web solutions.`;
 
 export const ABOUT_TEXT = `I am an enthusiastic Mechanical Engineering undergraduate from Delhi Technological University with a strong passion for web development. Over the past few months, I have delved into the world of front-end technologies, acquiring skills in HTML, CSS, JavaScript, React.js, and Tailwind CSS. My journey in web development has allowed me to explore creative solutions and build engaging, user-friendly interfaces. Alongside my academic pursuits, I actively contribute to open source projects and enjoy collaborating with other developers.`;
